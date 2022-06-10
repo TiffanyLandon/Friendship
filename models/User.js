@@ -1,6 +1,5 @@
-const { Schema, model } = require('mongoose');
-const { getQueryInterface } = require('../../fantastic-umbrella/config/connection');
-const Thoughtschema = require('./Thoughts')
+const { Schema, model,Types } = require('mongoose');
+const Thoughtschema = require('./Thought')
 
 const UserSchema = new Schema(
   {
